@@ -1,0 +1,303 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0 0 100px;
+  text-align: center;
+  background-image: url(homepic.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+#MainNavigation ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+#MainNavigation li{
+  display: inline-block;
+  margin-left: 12px;
+  text-align: center;
+}
+
+#MainNavigation a{
+  display: block;
+  color: #7fffd4;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#MainNavigation li a:hover{
+  background-color: #DC143C;
+}
+
+.active{
+  background-color: #8b0000;
+}
+
+.W-logo img{
+  width: 200px;
+  height: 80px;
+}
+
+.W-logo figure{
+  text-align: justify;
+}
+
+.W-logo figcaption{
+  color: black;
+  font-style: italic;
+}
+
+#P-logo{
+  width: 100px;
+  height: 80px;
+}
+
+.HomePic img{
+  width: 500px;
+  height: 300px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.Services{
+  display: flex;
+}
+
+.col-service{
+  flex: 20%;
+  padding: 1px;
+}
+
+.col-service img{
+  border: 10px solid grey;
+  background-color: #7fffd4;
+}
+
+.col-service figcaption{
+  color: #8b0000;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.service2{
+  display: flex;
+}
+
+.c-service{
+  flex: 25%;
+  padding: 1px;
+}
+
+.c-service figcaption{
+  color: #8b0000;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.c-service img{
+  border: 10px solid grey;
+  background-color: #7fffd4;
+}
+
+.footer ul{
+  list-style: none;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer li{
+  margin-left: 12px;
+}
+
+.footer li a{
+  display:block;
+  padding: 8px 10px;
+  color: #7fffd4;
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*About Us Section*/
+
+.about-us{
+  width: 700px;
+  text-align: justify;
+  position: relative;
+  display: inline-block;
+  border: 5px solid #8b0000;
+  background-color: grey;
+  border-radius: 20px;
+  color: #8b0000;
+  padding: 10px 12px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+/*CONTACT US SECTION*/
+
+label {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  color: #8b0000;
+}
+
+#submit-button {
+  background-color: #B22222;
+  height: 30px;
+  width: 20%;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input, textarea {
+  background-color: #D3D3D3;
+  color: #2F4F4F;
+  width: 250px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px 2px #696969;
+}
+
+/*CATALOGUE SECTION*/
+/*Photography*/
+
+.portfolio{
+  background-image: none;
+}
+
+.Navigation{
+  background-color: grey;
+  height: 175px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heading h1{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #8b0000;
+}
+
+.Row1{
+  display: flex;
+}
+
+.column1{
+  flex: 25%;
+  padding: 5px;
+}
+
+.Row2{
+  display: flex;
+}
+
+.column2{
+  flex: 25%;
+  padding: 5px;
+}
+
+.Row3{
+  display: flex;
+}
+
+.column3{
+  flex: 25%;
+  padding: 5px;
+}
+
+.Row4{
+  display: flex;
+}
+
+.column4{
+  flex: 25%
+  padding: 5px;
+}
+
+/*Videography*/
+
+.videos video{
+  padding: 30px;
+  padding-top: 10px;
+}
+
+/*T-shirts and Item Designs*/
+
+.T-shirts{
+  display: flex;
+}
+
+.col{
+  flex: 20%
+  padding: 5px;
+}
+
+/*Logo Designs*/
+
+.logos{
+  display: flex;
+}
+
+.col-logo{
+  flex: 25%;
+  padding: 5px;
+}
+
+/*Thank you page*/
+.thanks{
+  background-image: url(thanks.jpg);
+}
+
+/*Prices Section*/
+.prices h3{
+  color: #8b0000;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.prices p{
+  color: black;
+  font-style: italic;
+}
+
+.prices{
+  border: 5px solid #8b0000;
+  background-color: grey;
+  width: 500px;
+  height: 830px;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  padding-bottom: 0;
+}
